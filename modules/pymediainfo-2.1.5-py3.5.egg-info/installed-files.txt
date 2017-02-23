@@ -1,0 +1,8 @@
+../pymediainfo/__init__.py
+../pymediainfo/__pycache__/__init__.cpython-35.pyc
+PKG-INFO
+dependency_links.txt
+SOURCES.txt
+not-zip-safe
+top_level.txt
+namespace_packages.txt
