@@ -60,7 +60,7 @@ def get_argument_parser():
     # logger options
     loggroup = parser.add_argument_group(_('logging'), _('Change the amount of logging done.'))
     loglvlex = loggroup.add_mutually_exclusive_group()
-    loglvlex.add_argument('--debug', dest='loglevel',
+    loglvlex.add_argument('-d', '--debug', dest='loglevel',
                           action='store_const', const=logging.DEBUG,
                           help=_('Print log messages of debug severity and higher to stderr.'))
     loglvlex.add_argument('--warning', dest='loglevel',
