@@ -13,7 +13,7 @@ PROJECT_TITLE = 'SubDownloader'
 """
 Version of the project.
 """
-PROJECT_VERSION = '2.0.19'
+PROJECT_VERSION = '2.1.0'
 
 """
 Year of last change.
